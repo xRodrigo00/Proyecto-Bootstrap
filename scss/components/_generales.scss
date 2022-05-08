@@ -1,0 +1,42 @@
+/* ESTILOS GENERAES */
+h1{
+   font-size: $font_h1;
+}
+h2{
+    font-size: $font_h2;
+}
+h3{
+    font-size: $font_h3;
+}
+p{
+    font-size: $font_p;
+}
+i{
+    color: white;
+    margin-left: 1rem;
+}
+/* ESTILOS COMPARTIDOS */
+.bg-nav{
+    background: $background_principal
+}
+.title{
+    color: $primary_color;
+}
+.subtitle{
+    color: $secondary_color;
+}
+.img-extra{
+    width: 70px;
+}
+.card-shadow{
+    @include shadow_card;
+}
+.logo{
+    width: 80px;
+}
+.p-card{
+    @include background_card;
+}
+.m-img{
+    width: 350px;
+}
