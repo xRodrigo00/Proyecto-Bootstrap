@@ -61,4 +61,9 @@ i {
   width: 350px;
 }
 
+.nav_bar {
+  position: sticky;
+  top: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
